@@ -1,4 +1,8 @@
- 
+ body{
+    background-image: url("image/bg.png");
+
+    background-image: linear-gradient(to right, #00008B, #0000FF); /* Dark blue to light blue gradient */
+ }
  .nav{
     display: flex;
     justify-content: space-between; 
@@ -8,7 +12,9 @@
     padding: 20px 0px 20px 0px;
 
  }
- 
+ .nav a{
+    text-decoration: none;
+ }
  
  .display-flex {
     display: flex;
@@ -29,17 +35,15 @@ font-size: x-large;
  
 button{
     border-radius: 12px;
-
-    /* Orange */
     background: rgb(254, 163, 1);
     width: 197px;
-height: 50px;
-color: rgb(255, 255, 255);
-font-family: Quicksand;
-font-size: 25px;
-font-weight: 300;
- text-align: center;
- border: none;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    border: none;
   
 }
 
@@ -93,10 +97,9 @@ margin-left: ;
 }
 .hero2{
     display: flex;
-    /* justify-content:center; */
- gap: 30px;
- margin-left: 200px;
- margin-right: 140px;
+    gap: 30px;
+    margin-left: 200px;
+    margin-right: 140px;
  
 }
 .hero2 div{
@@ -105,11 +108,8 @@ margin-left: ;
     padding: 20px;
     width: 400px;
     height: 476.78px;
-  
-
     border: 0.94px solid rgb(222, 245, 255);
     border-radius: 18.86px;
-    
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
         
@@ -119,24 +119,23 @@ margin-left: ;
     justify-content: center;
 
     color: rgb(100, 200, 255);
-font-family: Quicksand;
-font-size: 15.09px;
-font-weight: 700;
-line-height: 28.3px;
-letter-spacing: 0%;
-text-align: center;
-
-font-size: larger;
-text-decoration: none;
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-size: larger;
+    text-decoration: none;
 }
 .hero2 h1{
     color: rgb(32, 32, 32);
-font-family: Quicksand;
-font-size: 24.52px;
-font-weight: 700;
-line-height: 30.65px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Quicksand;
+    font-size: 24.52px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 .hero2 p{
     display: flex;
@@ -145,11 +144,11 @@ text-align: center;
     margin-bottom: 33px;
 
     color: rgb(128, 128, 128);
-font-family: Raleway;
-font-size: 15.09px;
-font-weight: 500;
-line-height: 28.3px;
-text-align: center;
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    text-align: center;
 }
  
 
@@ -164,7 +163,7 @@ text-align: center;
     
      display: inline;
     text-align: center;
-   margin-left: 250px;
+   margin-left: 300px;
 }
     
 .hero3-title{
@@ -173,7 +172,206 @@ text-align: center;
    }
 
 
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #f8f8f8; */
+    /* color: #333; */
+    background-image: url("image/bg.png");
+}
+
+.container {
+    max-width: 1200px;
+     margin: 0 auto;  
+    padding: 20px;
+     display: grid;
+   grid-template-columns: repeat(2 1fr);  
+   display: flex;
+    gap: 20px;
+
+}
+
+.left-column, .right-column {
+    /* background: #fff; */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    padding: 20px;
+
+    width: 540.27px;
+    height: 600px;
+    
+}
+
+.left-column img, .right-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;     /* Adds space between the image and the pill date */
+
+}
+
+.date-pill {
+    display: inline-block;
+    background-color: #17a2b8; /* Blue background */
+    color: white;
+    padding: 5px 15px;  
+    border-radius: 20px; /* Rounded corners for pill shape */
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    position: relative;
+    top: -30px;
+}
+
+
+.left-column h2 {
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.left-column p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 50px;
+}
+
+.right-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two-column grid for right section */
+   
+    gap: 20px;
+
+}
+
+.left-column {
+
+    border-radius: 10px;
+    gap: 20px;
+    overflow: hidden;
+    padding: 10px;  
+    padding: 10px;
+    /* text-align: center; */
+    border: 1px solid #ddd; /* Adds a border to each card */
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.right-column .card {
+   
+     border-radius: 10px;
+    gap: 20px;
+    overflow: hidden;
+    padding: 10px;  
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd; /* Adds a border to each card */
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+}
+
+.right-column .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.right-column .card h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+#last-btn, #btn{
+  
+    text-align: center;  
+    margin-bottom: 60px;
+}
 
 
 
+.foot-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+   
+    justify-content:  space-around;
+    gap: 100px;
+    
+}
+.foot-container a{
+    text-decoration: none;
+    font-size: larger;
+}
+
+ footer{
+    background-color: #00BFFF; /* Light blue header */
+    padding: 20px;
+    text-align: center;
+}
+
+ footer h1{
+    color: #ffffff; /* Black text */
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ footer p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+}
+
+
+footer nav {
+    background-color: #00BFFF; /* Light blue navigation */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 20px;
  
+    
+}
+footer li{
+    text-decoration: none;
+    list-style: none;
+   
+  
+}
+footer nav a {
+    color: #ffffff; /* Black links */
+    text-decoration: none;
+   
+}
+
+.social-icons {
+    text-align: right;
+    font-size: x-large;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}

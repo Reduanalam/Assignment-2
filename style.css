@@ -1,0 +1,179 @@
+ 
+ .nav{
+    display: flex;
+    justify-content: space-between; 
+    /* justify-content: center; */
+    align-items: center;
+    gap: 10;
+    padding: 20px 0px 20px 0px;
+
+ }
+ 
+ 
+ .display-flex {
+    display: flex;
+} 
+  .nav-item{
+ 
+  list-style: none;
+ 
+    margin-right: 30px;
+font-size: x-large;
+   
+} 
+.nav_link{
+    justify-content: space-around;
+
+
+} 
+ 
+button{
+    border-radius: 12px;
+
+    /* Orange */
+    background: rgb(254, 163, 1);
+    width: 197px;
+height: 50px;
+color: rgb(255, 255, 255);
+font-family: Quicksand;
+font-size: 25px;
+font-weight: 300;
+ text-align: center;
+ border: none;
+  
+}
+
+ 
+
+
+
+
+
+
+.hero{
+    
+    /* border: 1px solid tomato; */
+    display: flex;
+    justify-content: space-around;
+    margin-left: 141px;
+    margin-top: 120px;
+    margin-right: 140px;
+}
+.hero-paragraph{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 122px;
+margin-bottom: 132px;
+margin-left: ;
+}
+#span1{
+ color: orange;
+}
+#span2{
+    color: rgb(78, 78, 255);
+}
+.hero-paragraph h1{
+    font-size: 40px;
+}
+
+
+
+
+#Standard{
+     justify-content: center;
+     align-items: center;
+}
+
+
+
+.hero2-title {
+    display: flex;
+    justify-content: center;
+}
+.hero2{
+    display: flex;
+    /* justify-content:center; */
+ gap: 30px;
+ margin-left: 200px;
+ margin-right: 140px;
+ 
+}
+.hero2 div{
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 400px;
+    height: 476.78px;
+  
+
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+        
+}
+.hero2 a{
+    display: flex;
+    justify-content: center;
+
+    color: rgb(100, 200, 255);
+font-family: Quicksand;
+font-size: 15.09px;
+font-weight: 700;
+line-height: 28.3px;
+letter-spacing: 0%;
+text-align: center;
+
+font-size: larger;
+text-decoration: none;
+}
+.hero2 h1{
+    color: rgb(32, 32, 32);
+font-family: Quicksand;
+font-size: 24.52px;
+font-weight: 700;
+line-height: 30.65px;
+letter-spacing: 0%;
+text-align: center;
+}
+.hero2 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    margin-bottom: 33px;
+
+    color: rgb(128, 128, 128);
+font-family: Raleway;
+font-size: 15.09px;
+font-weight: 500;
+line-height: 28.3px;
+text-align: center;
+}
+ 
+
+
+
+
+.arrow{
+    margin-top: 80px;
+   border-radius: 30px;  
+   height: 30px;
+    width: 50px;
+    
+     display: inline;
+    text-align: center;
+   margin-left: 250px;
+}
+    
+.hero3-title{
+    display: flex;
+    justify-content: center;
+   }
+
+
+
+
+
+ 

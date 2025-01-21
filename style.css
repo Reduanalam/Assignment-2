@@ -6,7 +6,7 @@
  .nav{
     display: flex;
     justify-content: space-between; 
-    /* justify-content: center; */
+     
     align-items: center;
     gap: 10;
     padding: 20px 0px 20px 0px;
@@ -52,7 +52,7 @@ button{
 
 .hero{
     
-    /* border: 1px solid tomato; */
+    
     display: flex;
     justify-content: space-around;
     margin-left: 141px;
@@ -173,8 +173,7 @@ margin-left: ;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* background-color: #f8f8f8; */
-    /* color: #333; */
+   
     background-image: url("image/bg.png");
 }
 
@@ -190,9 +189,9 @@ margin-left: ;
 }
 
 .left-column, .right-column {
-    /* background: #fff; */
+   
     border-radius: 10px;
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    
     padding: 20px;
 
     width: 540.27px;
@@ -204,16 +203,15 @@ margin-left: ;
     width: 100%;
     height: auto;
     border-radius: 10px;
-    margin-bottom: 10px;     /* Adds space between the image and the pill date */
-
+    margin-bottom: 10px;      
 }
 
 .date-pill {
     display: inline-block;
-    background-color: #17a2b8; /* Blue background */
+    background-color: #17a2b8;  
     color: white;
     padding: 5px 15px;  
-    border-radius: 20px; /* Rounded corners for pill shape */
+    border-radius: 20px;  
     font-size: 12px;
     font-weight: bold;
     margin-bottom: 10px;
@@ -236,8 +234,7 @@ margin-left: ;
 
 .right-column {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two-column grid for right section */
-   
+    grid-template-columns: repeat(2, 1fr);  
     gap: 20px;
 
 }
@@ -249,8 +246,8 @@ margin-left: ;
     overflow: hidden;
     padding: 10px;  
     padding: 10px;
-    /* text-align: center; */
-    border: 1px solid #ddd; /* Adds a border to each card */
+    
+    border: 1px solid #ddd;  
     border-radius: 10px;
     background-color: whitesmoke;
 }
@@ -263,7 +260,7 @@ margin-left: ;
     padding: 10px;  
     padding: 10px;
     text-align: center;
-    border: 1px solid #ddd; /* Adds a border to each card */
+    border: 1px solid #ddd;  
     border-radius: 10px;
     background-color: whitesmoke;
 
@@ -307,13 +304,12 @@ margin-left: ;
 }
 
  footer{
-    background-color: #00BFFF; /* Light blue header */
-    padding: 20px;
+    background-color: #00BFFF;  
     text-align: center;
 }
 
  footer h1{
-    color: #ffffff; /* Black text */
+    color: #ffffff;  
     font-size: 24px;
     font-weight: 700;
 }
@@ -327,7 +323,7 @@ margin-left: ;
 
 
 footer nav {
-    background-color: #00BFFF; /* Light blue navigation */
+    background-color: #00BFFF;  
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -352,7 +348,7 @@ footer li{
   
 }
 footer nav a {
-    color: #ffffff; /* Black links */
+    color: #ffffff;  
     text-decoration: none;
    
 }
@@ -376,7 +372,7 @@ footer nav a {
 
 
 
-/* Media Query for Mobile Devices (up to 600px) */
+ 
 @media (max-width: 600px) {
     .nav {
         flex-direction: column;
@@ -425,7 +421,7 @@ footer nav a {
         height: 100%;
     }
     .left-column {
-        grid-template-columns: 1fr; /* Single column for smaller screens */
+        grid-template-columns: 1fr;  
     }
     .foot-container {
         flex-direction: column;
@@ -436,3 +432,4 @@ footer nav a {
     footer {
         text-align: center;
     }
+}

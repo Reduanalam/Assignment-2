@@ -1,1 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+ <style>
+     .body{
+    background-image: url("image/bg.png");
+    background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 40%);
+ }
+ .nav{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 10;
+    padding: 20px 0px 20px 0px;
+
+ }
+ .nav a{
+    text-decoration: none;
+ }
+ 
+ .display-flex {
+    display: flex;
+} 
+  .nav-item{
+    list-style: none;
+    margin-right: 30px;
+    font-size: x-large;
+   
+} 
+.nav_link{
+    justify-content: space-around;
+ 
+} 
+ 
+.navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      margin-left: 200px;
+      color: rgb(255, 255, 255);
+      
+    }
+
+    .nav-title {
+      font-size: 20px;
+    }
+
+    .menu-icon {
+      display: none; /* Hidden by default */
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 20px;
+      cursor: pointer;
+    }
+
+    .menu-icon div {
+      width: 100%;
+      height: 4px;
+      background-color: rgb(0, 0, 0);
+      border-radius: 2px;
+    }
+ 
+ 
+.dropdown-menu {
+      display: none; 
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #333;
+      list-style: none;
+      padding: 10px 0;
+      margin: 0;
+      border-radius: 5px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown-menu li {
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+
+    .dropdown-menu li:hover {
+      background-color: #444;
+    }
+
+
+
+button{
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    width: 197px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    border: none;
+  
+}
+
+ 
+ 
+
+.hero{
+   
+    display: flex;
+    justify-content: space-around;
+    margin-left: 141px;
+    margin-top: 120px;
+    margin-right: 140px;
+}
+.hero-paragraph{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-top: 122px;
+margin-bottom: 132px;
+margin-left: ;
+}
+#span1{
+ color: orange;
+}
+#span2{
+    color: rgb(78, 78, 255);
+}
+.hero-paragraph h1{
+    font-size: 40px;
+}
+
+
+
+
+#Standard{
+     justify-content: center;
+     align-items: center;
+}
+
+
+
+.hero2-title {
+    display: flex;
+    justify-content: center;
+}
+.hero2{
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+    margin-right: 140px;
+ 
+}
+ 
+.hero2 .Curriculum1{
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 400px;
+    height: 476.78px;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+.hero2 .Curriculum2{
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 400px;
+    height: 476.78px;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 19.16px 0.64px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.hero2 .Curriculum3{
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 400px;
+    height: 476.78px;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 19.16px 0.64px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+
+ 
+ 
+.hero2 a{
+    display: flex;
+    justify-content: center;
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+    font-size: larger;
+    text-decoration: none;
+}
+.hero2 h1{
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24.52px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.hero2 p{
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    text-align: center;
+}
+
+.arrow{
+    margin-top: 80px;
+   border-radius: 30px;  
+   height: 30px;
+    width: 50px;   
+     display: inline;
+    text-align: center;
+   margin-left: 250px;
+   
+}
+    
+.hero3-title{
+    display: flex;
+    justify-content: center;
+   }
+
+
+   body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("image/bg.png");
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;  
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);  
+    display: flex;
+    gap: 20px;
+
+}
+
+.left-column, .right-column {
+    border-radius: 10px;  
+    padding: 20px;
+    width: 540.27px;
+    height: 600px;
+    
+}
+
+.left-column img, .right-column img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;      
+}
+
+.date-pill {
+    display: inline-block;
+    background-color: #17a2b8;  
+    color: white;
+    padding: 5px 15px;  
+    border-radius: 20px;  
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    position: relative;
+    top: -30px;
+}
+ 
+.left-column h2 {
+    font-size: 20px;
+    margin-top: 60px;
+}
+
+.left-column p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 50px;
+}
+
+.right-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  
+    gap: 20px;
+
+}
+
+.left-column {
+
+    border-radius: 10px;
+    gap: 20px;
+    overflow: hidden;
+    padding: 10px;  
+    padding: 10px;
+    
+    border: 1px solid #ddd;  
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+.right-column .card {
+   
+     border-radius: 10px;
+    gap: 20px;
+    overflow: hidden;
+    padding: 10px;  
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;  
+    border-radius: 10px;
+    background-color: whitesmoke;
+
+}
+
+.right-column .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.right-column .card h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+ 
+#last-btn, #btn{
+  
+    text-align: center;  
+    margin-bottom: 60px;
+}
+ 
+.foot-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+   
+    justify-content:  space-around;
+    gap: 100px;
+    
+}
+.foot-container a{
+    text-decoration: none;
+    font-size: larger;
+}
+
+ footer{
+    background-color: #00BFFF;  
+    text-align: center;
+}
+
+ footer h1{
+    color: #ffffff;  
+    font-size: 24px;
+    font-weight: 700;
+}
+
+ footer p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+}
+
+
+footer nav {
+    background-color: #00BFFF;  
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+ 
+    
+}
+footer li{
+    text-decoration: none;
+    list-style: none;
+   
+  
+}
+footer nav a {
+    color: #ffffff;  
+    text-decoration: none;
+   
+}
+
+.social-icons {
+    text-align: right;
+    font-size: x-large;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: x-large;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+ 
+
+
+ 
+@media (max-width: 600px) {
+
+
+    .arrow{
+        display: none;
+  
+   
+}
+    
+
+
+    
+    .menu-icon {
+        display: flex;  
+      }
+     
+      .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+    .nav-links {
+        display: none;  
+      }
+ 
+.nav-link a{
+    display: none;
+}
+.navbar {
+    color: aliceblue;
+}
+  .hero {
+        flex-direction: column;
+        margin: 20px;
+        align-items: center;
+    }
+
+    .hero-paragraph {
+        margin: 0;
+        text-align: center;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero2 {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .hero2 div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+        height: 100%;
+    }
+    .left-column {
+        grid-template-columns: 1fr;  
+    }
+    .foot-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+ 
+    }
+
+ 
+ 
+ </style>
+</head>
+
+<body class="body">
+    <header class="header">
+        <section class="section1">
+ 
+            <nav class="nav display-flex">
+                <div class="display-flex">
+                    <img src="image/logo.png" alt="">
+                    <h2>SCHOOL</h2>
+
+                     <!-- Navigation bar -->
+  <nav class="navbar">
+     
+    <div class="menu-icon" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <!-- Dropdown menu -->
+    <ul class="dropdown-menu" id="dropdownMenu">
+      <li>Home</li>
+      <li>About</li>
+      <li>Services</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+
+  
+ 
+                <ul class="nav-link display-flex">
+                       <li class="nav-item"><a href="">Home</a></li>
+                     <li class="nav-item"><a href="">About</a></li>
+                     <li class="nav-item"><a href="">Facilities</a></li>
+                     <li class="nav-item"><a href="">Admission</a></li>
+                     <li class="nav-item"><a href=""><button class="button">Contact</button></a></li>  
+                    
+                </ul>  
+            </nav>
+
+        </section>
+
+    </header>
+
+    <main>
+
+        <div class="hero">
+            <div class="hero-paragraph">
+                <h1><span id="span1">Empowering</span> <br>
+                    <span>students from small</span> <br>
+                    <span id="span2">age towards vision</span>
+                </h1>
+                <p>With the courage, Confidence, Creativity and Compassion to make <br>
+                    their Unique Contribution in a Diverse and Dynamic World.</p>
+
+                <a href=""><button>Enroll Now</button></a>
+            </div>
+
+
+            <div class="hero-image">
+                <img src="image/hero-kids.png" alt="" height="575px" width="468.61px">
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+    <h1 class="hero2-title">Standard Curriculum</h1>
+    <div class="hero2">
+        <div class="Curriculum1">
+            <img src="image/kinder.png" alt="" height="135px" width="132px">
+            <h1>Kinder (3-6) Years</h1>
+            <p>Cum sociis natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus
+                mu sdis parturient</p>
+            <a href="">Read More </a>
+        </div>
+        <div class="Curriculum2">
+            <img src="image/elementary.png" alt="">
+
+            <h1>Elementary School</h1>
+            <p>Cum sociis natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus
+                mu sdis parturient</p>
+            <a href="">Read More </a>
+        </div>
+        <div class="Curriculum3">
+            <img src="image/middle.png" alt="">
+            <h1>Middle (10-16) Years</h1>
+            <p>Cum sociis natoque penatibus et magnis
+                dis parturient montes, nascetur ridiculus
+                mu sdis parturient</p>
+            <a href=""> Read More </a>
+        </div>
+
+    </div>
+
+
+    <div class="arrow">
+        <button class="arrow"><</button>
+        <button class="arrow">></button>
+    </div>
+
+    <div class="hero3-title">
+        <h1>Our Stories</h1>
+
+    </div>
+
+
+    <div class="container">
+        
+        <div class="left-column">
+            <img src="image/story-1.png" alt="Card 3">
+            <div class="date-pill">November 19, 2019</div>
+            <h1>A fun toddler coloring training on classroom</h1>
+            <p>Beautiful branding for changes by Never Now in Australia. Changes is a platform for open discussion in an inclusive and collaborative environment...</p>
+        </div>
+
+        <!-- Right Column (4-Grid) -->
+        <div class="right-column">
+            <div class="card">
+                <img src="image/story-2.png" alt="Card 3">
+                <div class="date-pill">November 19, 2019</div>
+                <h3>Find out if a school fits the family's needs</h3>
+            </div>
+            <div class="card">
+                <img src="image/story-3.png" alt="Card 3">
+                <div class="date-pill">November 19, 2019</div>
+                <h3>Summer math & literacy centres for kids</h3>
+            </div>
+            <div class="card">
+                <img src="image/story-4.png" alt="Card 3">
+                <div class="date-pill">September 10, 2019</div>
+                <h3>Classroom management techniques for new tutors</h3>
+            </div>
+            <div class="card">
+                <img src="image/story-5.png" alt="Card 3">
+                <div class="date-pill">July 19, 2019</div>
+                <h3>Conversation rhymes improve kids' listening</h3>
+            </div>
+        </div>
+
+    </div>
+ <div id="last-btn"> <button id="btn">View All</button></div>
+  
+    <footer>
+        <div class="foot-container">
+            <nav>
+                <img src="image/logo.png" alt="">
+                <h1> Kids Education</h1>
+                <p>
+                    Pizza ipsum dolor meat lovers buffalo. <br>
+                    Deep dolor roll melted bacon Blanca pan <br>
+                     bacon pineapple Aussie. Mayo rib sauce Hawaiian meatball.
+                </p>
+        
+            </nav>
+     
+            
+            <ul>
+                <h3>About School</h3>
+                <li><a href="">Home</a></li><br>
+                <li><a href="">About</a></li><br>
+                <li><a href="">Facilities</a></li><br>
+                <li><a href="">Admission</a></li>
+            </ul>
+            <div class="social-icons">
+                <h3>Keep In Touch</h3>
+                <a href=""><img src="image/fb.png" alt="Facebook"></a> 
+                <a href=""><img src="image/dribble.png" alt="Dibble"></a> 
+                <a href=""><img src="image/google+.png" alt="Twitter"></a> 
+                <a href=""><img src="image/twitter.png" alt="Google Plus"></a>
+            </div>
+        </div>
+    
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
